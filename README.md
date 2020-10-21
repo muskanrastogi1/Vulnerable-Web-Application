@@ -1,6 +1,6 @@
 # Vulnerability Testing & Solutions :computer:
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/muskanrastogi1/Vulnerability-Testing-Solutions?logo=github&style=social)](https://github.com/muskanrastogi1/) [![GitHub last commit](https://img.shields.io/github/last-commit/muskanrastogi1/Vulnerability-Testing-Solutions?style=social&logo=git)](https://github.com/muskanrastogi1/) [![GitHub stars](https://img.shields.io/github/stars/muskanrastogi1/Vulnerability-Testing-Solutions?style=social)](https://github.com/muskanrastogi1/Vulnerability-Testing-Solutions/stargazers) [![GitHub forks](https://img.shields.io/github/forks/muskanrastogi1/Vulnerability-Testing-Solutions?style=social&logo=git)](https://github.com/muskanrastogi1/Vulnerability-Testing-Solutions/network)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/muskanrastogi1/Vulnerable-Web-Application?logo=github&style=social)](https://github.com/muskanrastogi1/) [![GitHub last commit](https://img.shields.io/github/last-commit/muskanrastogi1/Vulnerable-Web-Application?style=social&logo=git)](https://github.com/muskanrastogi1/) [![GitHub stars](https://img.shields.io/github/stars/muskanrastogi1/Vulnerable-Web-Application?style=social)](https://github.com/muskanrastogi1/Vulnerable-Web-Application/stargazers) [![GitHub forks](https://img.shields.io/github/forks/muskanrastogi1/Vulnerable-Web-Application?style=social&logo=git)](https://github.com/muskanrastogi1/Vulnerable-Web-Application/network)
 
 Website for testing and preventing different attacks like XSS, SQL Injection & Spoofing.
 
@@ -81,8 +81,7 @@ ______      _               _   _               _
 
 **MIT &copy; [Muskan Rastogi](https://github.com/muskanrastogi1/Vulnerablity Web Application/blob/master/LICENSE)**
 
-[![GitHub license](https://img.shields.io/github/license/muskanrastogi1/Vulnerablity Web Application?style=social&logo=github)](https://github.com/muskanrastogi1/Vulnerablity Web Application/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/muskanrastogi1?style=social)](https://twitter.com/muskan_rastogi1)
-
+[![GitHub license](https://img.shields.io/github/license/muskanrastogi1/Vulnerable-Web-Application?style=social&logo=github)](https://github.com/muskanrastogi1/Vulnerable-Web-Application/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/muskanrastogi1?style=social)](https://twitter.com/muskan_rastogi1)
 ---------
 
 ```javascript
