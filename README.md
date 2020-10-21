@@ -79,7 +79,7 @@ ______      _               _   _               _
 
 ## License
 
-**MIT &copy; [Muskan Rastogi](https://github.com/muskanrastogi1/Vulnerablity Web Application/blob/master/LICENSE)**
+**MIT &copy; [Muskan Rastogi](https://github.com/muskanrastogi1/Vulnerablity-Web-Application/blob/master/LICENSE)**
 
 [![GitHub license](https://img.shields.io/github/license/muskanrastogi1/Vulnerable-Web-Application?style=social&logo=github)](https://github.com/muskanrastogi1/Vulnerable-Web-Application/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/muskanrastogi1?style=social)](https://twitter.com/muskan_rastogi1)
 ---------
