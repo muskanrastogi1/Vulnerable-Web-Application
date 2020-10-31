@@ -32,47 +32,20 @@
 	// Create connection
 	$conn = mysqli_connect($servername, $username, $password, $db);
 
-	// Check connection
-	if (!$conn) {
-		die("Connection failed: " . mysqli_connect_error());
-	}
-	//echo "Connected successfully";
-	try{
-		// if (isset($_POST["submit"])) {
-		// 	$firstname = $_POST["firstname"];
-		// 	#$sql = "SELECT lastname FROM users WHERE firstname='$firstname'"; //String
-		// 	$sql = "SELECT * FROM users WHERE firstname = " . $_GET["firstname"];
-		// 	$result = mysqli_query($conn, $sql);
+	if (isset($_POST["submit"])) {
+		$firstname = $_POST["firstname"];
+		$sql = "SELECT lastname FROM users WHERE firstname='$firstname'"; //String
+		$result = mysqli_query($conn, $sql);
 
-		// 	if (mysqli_num_rows($result) > 0) {
-		// 		// output data of each row
-		// 		while ($row = mysqli_fetch_assoc($result)) {
-		// 			echo $row["lastname"];
-		// 			echo "<br>";
-		// 		}
-		// 	} else {
-		// 		echo "0 results";
-		// 	}
-		// }
-	
-		if (isset($_GET['Submit'])) {        // Retrieve data        
-			$id = $_GET['firstname'];        
-			if (!preg_match('/-BR$/', $firstname))                
-			$html .= '<pre><h2>Wrong ID format</h2></pre>';        
-			else {                
-				$id = str_replace("-BR", "", $firstname);               
-				$getid = "SELECT last_name FROM users WHERE firstname = '$firstname'";                 
-				$result = mysql_query($getid); // Removed 'or die' to suppress mysql errors                
-				$num = @mysql_numrows($result); // The '@' character suppresses errors making the injection 'blind'                
-				if ($num > 0)                        
-				$html .= '<pre><h2>User exists!</h2></pre>';                
-				else                        
-				$html .= '<pre><h2>Unknown user!</h2></pre>';        
-			}}
-
-	}
-	catch(Exception $e) {
-		echo 'Message: ';
+		if (mysqli_num_rows($result) > 0) {
+			// output data of each row
+			while ($row = mysqli_fetch_assoc($result)) {
+				echo $row["lastname"];
+				echo "<br>";
+			}
+		} else {
+			echo "0 results";
+		}
 	}
 
 	
